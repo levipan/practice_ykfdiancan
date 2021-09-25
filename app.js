@@ -3,7 +3,7 @@ App({
   //创建towxml对象，供小程序页面使用
   globalData: {
     //1-src替换成你自己的
-    mp3Src: 'cloud://cloud1-1g471hgg8a9d1be7.636c-cloud1-1g471hgg8a9d1be7-1306587983/mp3/laidanle.wav',
+    mp3Src: 'cloud://cloud1-1hgg8a9d1be7.636c-cloud1-1g471hgg8a9d1be7-1306587983/mp3/laidanle.wav',
     //要设置的地方
     isNeedSaoMa: true, //是否需要扫码点餐： true需要，false不需要
     address: '', //isNeedSaoMa为true时是桌号，false时店内随意下单
@@ -14,7 +14,7 @@ App({
   onLaunch: function () {
     //云开发初始化
     wx.cloud.init({
-      env: 'cloud1-1g471hgg8a9d1be7', //2-src替换成你自己的云开发环境id
+      env: 'cloud1-1hgg8a9d1be7', //2-src替换成你自己的云开发环境id
       traceUser: true,
     })
     this.getOpenid();
